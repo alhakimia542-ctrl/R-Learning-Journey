@@ -62,5 +62,22 @@ Explores advanced visualization techniques tailored for AI concepts:
 * Adding threshold lines (`abline()`) and shading specific areas using `polygon()`.
 * Structuring professional charts by adding a `legend()` to explain data mappings.
 
+## Repository Structure (Week 5)
+
+This section dives into advanced layout management and practical data visualization techniques:
+
+### 9. `R8.R`
+Focuses on advanced graphical layouts and data visualization:
+* Managing complex graphical window layouts using `split.screen()`, `layout()`, and `par(mfrow)`, `par(mfg)`[cite: 13].
+* Creating dashboards by combining multiple plots, including scatter plots and boxplots (`boxplot()`)[cite: 13].
+* Enhancing plots with titles (`title()`), legends (`legend()`), and conditional coloring based on data metrics (e.g., median)[cite: 13].
+
+### 10. `R9.R`
+Covers data reading and initial exploration:
+* Reading external data files (`read.table()`) and managing the working directory (`getwd()`, `setwd()`)[cite: 14].
+* Exploring dataset dimensions and structures using `dim()`, `nrow()`, `ncol()`, `head()`, and `summary()`[cite: 14].
+* Checking system locale encoding with `localeToCharset()`[cite: 14].
+* Creating basic scatter plots with custom labels and titles (`plot()`, `title()`)[cite: 14].
+
 ##  Continuous Updates
 This repository will be updated weekly with new scripts, concepts, and statistical operations as I progress through my course. Stay tuned!
